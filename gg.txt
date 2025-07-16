@@ -1,0 +1,36 @@
+#Exercicio prático 1
+#Peça ao usuário para digitar uma palavra e exiba os caracteres nas posições pares
+
+#resposta
+texto = input ('Digite um palavra')
+print(texto[::2])
+
+#Exercicio prático 2
+
+#Peça ao usuário uma frase e mostre-a invertida, pulando de 2 em 2.
+
+texto = input ('Digite uma frase')
+print(texto[::-2])
+
+#Exercicio prático 3
+
+#Solicite ao usuário uma palavra e exiba apenas os últimos 5 caracteres, invertido.
+texto = input ('Digite uma palavra')
+print(texto[-1:-6:-1])
+
+
+#Exercicio prático 4
+
+#Leia uma string do usuário e mostre os primeiros 6 caracteres pulando de 2 em 2
+
+texto = input ('Digite uma palavra')
+print(texto[:7:2])
+
+
+#Exercicio prático 5
+
+#Peça ao usuário para digitar um texto e exiba apenas os caracteres entre os índices 2 e 10, pulando de 3 em 3
+
+texto = input ('Digite uma frase')
+print(texto)
+print(texto[2:10:3])
